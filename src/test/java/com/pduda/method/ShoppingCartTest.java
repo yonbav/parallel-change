@@ -1,5 +1,6 @@
-package com.pduda.field;
+package com.pduda.method;
 
+import com.pduda.field.ShoppingCart;
 import org.junit.Assert;
 import org.junit.Test;
 

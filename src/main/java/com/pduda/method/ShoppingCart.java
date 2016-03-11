@@ -1,4 +1,4 @@
-package com.pduda.field;
+package com.pduda.method;
 
 public class ShoppingCart {
     private int price;
