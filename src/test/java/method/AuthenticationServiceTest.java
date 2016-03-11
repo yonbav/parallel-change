@@ -1,5 +1,6 @@
 package method;
 
+import com.pduda.method.AuthenticationService;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -18,9 +19,4 @@ public class AuthenticationServiceTest {
         Assert.assertFalse(service.isAuthenticated(normalUserId));
     }
 
-    public static class AuthenticationService {
-        public boolean isAuthenticated(int id) {
-            return id == 12345;
-        }
-    }
 }
