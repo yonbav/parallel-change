@@ -23,7 +23,7 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void singleItem_hasDiscountIfContainsAProductWorthAtLeast100() throws Exception {
+    public void singleItem_hasDiscountIfContainsAtLeastOneProductWorthAtLeast100() throws Exception {
         ShoppingCart shoppingCart = new ShoppingCart();
         shoppingCart.add(100);
 
@@ -31,7 +31,7 @@ public class ShoppingCartTest {
     }
 
     @Test
-    public void singleItem_doesNotHaveDiscountIfContainsAProductWorthLessThan100() throws Exception {
+    public void singleItem_doesNotHaveDiscountIfContainsNoProductsWorthAtLeast100() throws Exception {
         ShoppingCart shoppingCart = new ShoppingCart();
         shoppingCart.add(99);
 
