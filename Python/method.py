@@ -18,7 +18,7 @@ class AuthenticationClient:
         print("is authenticated: ", str(authenticated))
 
 
-class JetAnotherClient:
+class YetAnotherClient:
     def run(self):
         AuthenticationService().is_authenticated(100)
 
@@ -26,5 +26,3 @@ class JetAnotherClient:
 if __name__ == "__main__":
     client = AuthenticationClient(AuthenticationService())
     client.run()
-
-
