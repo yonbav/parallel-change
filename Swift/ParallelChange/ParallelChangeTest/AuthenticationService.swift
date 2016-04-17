@@ -25,7 +25,7 @@ class AuthenticationClient {
     }
 }
 
-class JetAnotherClient {
+class YetAnotherClient {
     func run() {
         AuthenticationService().isAuthenticated(100)
     }
