@@ -7,7 +7,7 @@ public class ImagineThisIsAClientInADifferentRepositoryTest {
 
 
     @Test
-    public void singleItem_numberOfProductsInTheCart() throws Exception {
+    public void singleItem_numberOfProductsInTheCart() {
         ImagineThisIsAClientInADifferentRepository client = new ImagineThisIsAClientInADifferentRepository();
 
         Assert.assertEquals("Total price is 50 euro", client.formattedTotalPrice(50));

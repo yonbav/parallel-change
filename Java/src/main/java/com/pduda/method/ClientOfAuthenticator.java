@@ -1,7 +1,7 @@
 package com.pduda.method;
 
 public class ClientOfAuthenticator {
-    private AuthenticationService authenticationService;
+    private final AuthenticationService authenticationService;
 
     public static void main(String[] args) {
         new ClientOfAuthenticator(new AuthenticationService()).run();
